@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Merriweather+Sans:ital,wght@1,300&family=Noto+Sans&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body{
+    background-image: url(https://claudia.abril.com.br/wp-content/uploads/2020/01/guia-bacc81sico-mapa-astral-1.png?w=1280&h=720&crop=1);
+    background-size: cover;
+    background-position: 0px -120px;
+    background-repeat: no-repeat;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #5fabab;
+    border: solid #121c71 3px;
+    border-radius: 2rem;
+    padding: 2rem;
+    max-width: 26rem;
+    margin-top: 8rem;
+    margin-left: 30rem;
+}
+
+main h1{
+    color: #04686f;
+    text-align: center; 
+}
+
+input{
+    margin-top: 1rem;
+    padding: 0.8rem; 
+    border: solid #121c71 1px;
+    border-radius: 0.5rem;
+    background-color: #bbcbc9;
+    font-size: 1rem;
+}
+
+button{
+    background-color: #121c71;
+    color: #04686f;
+    border: solid #121c71 1px;
+    border-radius: 1.5rem;
+    padding: 0.5rem;
+    width: 8rem;
+    margin: 1rem;
+    font-size: 1.4rem;
+    transition: 500ms;
+}
+
+button:hover{
+    transform: scale(1.1);
+    border: solid #121c71 1px;
+    background-color: #3196f5;
+    cursor: pointer;
+
+}
+
+#frase{
+    margin-left: 0.5rem;
+    text-align: justify;
+    
+}
+
+footer{
+    background-color: #f77d9c;
+    color: #660860;
+    position: relative;
+    text-align: center;
+    bottom: 0;
+    top: 9.4rem;
+    padding: 0.8rem;
+}
+
+p{  
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold; 
+}
+
+.icons{
+    margin: 1rem;https://sonhoastral.com/uploads/content/image/24560/AdobeStock_329029270.jpeg#e7dea4#380f09#380f09#f8f1be#380f09#e7dea4#380f09#380f09#380f09d7#cfa961#442110
+}
